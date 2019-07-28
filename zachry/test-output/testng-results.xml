@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ZachrySuite" duration-ms="45410" started-at="2019-06-15T11:12:56Z" finished-at="2019-06-15T11:13:41Z">
+    <groups>
+      <group name="Regression">
+        <method signature="HomePage.login()[pri:0, instance:zachry.HomePage@724af044]" name="login" class="zachry.HomePage"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="Registration.regist()[pri:0, instance:zachry.Registration@548b7f67]" name="regist" class="zachry.Registration"/>
+        <method signature="HomePage.home()[pri:0, instance:zachry.HomePage@724af044]" name="home" class="zachry.HomePage"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="RegisterTest" duration-ms="9796" started-at="2019-06-15T11:12:56Z" finished-at="2019-06-15T11:13:06Z">
+      <class name="zachry.Registration">
+        <test-method status="PASS" signature="regist()[pri:0, instance:zachry.Registration@548b7f67]" name="regist" duration-ms="9773" started-at="2019-06-15T16:42:56Z" finished-at="2019-06-15T16:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regist -->
+      </class> <!-- zachry.Registration -->
+    </test> <!-- RegisterTest -->
+    <test name="Homepage" duration-ms="35578" started-at="2019-06-15T11:13:06Z" finished-at="2019-06-15T11:13:41Z">
+      <class name="zachry.HomePage">
+        <test-method status="PASS" signature="home()[pri:0, instance:zachry.HomePage@724af044]" name="home" duration-ms="19832" started-at="2019-06-15T16:43:06Z" finished-at="2019-06-15T16:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="login()[pri:0, instance:zachry.HomePage@724af044]" name="login" duration-ms="15738" started-at="2019-06-15T16:43:25Z" finished-at="2019-06-15T16:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- zachry.HomePage -->
+    </test> <!-- Homepage -->
+  </suite> <!-- ZachrySuite -->
+</testng-results>
